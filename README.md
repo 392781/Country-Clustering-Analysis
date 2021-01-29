@@ -26,7 +26,7 @@ $ conda create -n data_analysis
 ```
 
 2. Clone the repository
-```console
+```shell
 $ git clone https://github.com/392781/Country-Clustering-Analysis.git
 ```
 
