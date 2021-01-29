@@ -26,21 +26,21 @@ $ conda create -n data_analysis
 ```
 
 2. Clone the repository
-```{shell}
+```console
 $ git clone https://github.com/392781/Country-Clustering-Analysis.git
 ```
 
 3. Install the required libraries
-```{shell}
+```shell
 $ conda install pip
 $ pip install -r requirements.txt
 ```
 or
-```{shell}
+```shell
 $ conda install --file requirements.txt
 ```
 
 4. Run jupyter note book and use!
-```{shell}
+```shell
 $ jupyter notebook
 ```
