@@ -18,3 +18,29 @@ We have 167 countries reflected by 9 different socio-economic/health features:
 |`gdpp`|The GDP per capita.  Calculated as the Total GDP divided by the total population|`int`|
 
 We will perform some **principal component analysis**, **k-means clustering**, and **hierarchical clustering** using scikit-learn and matplotlib.
+
+## Running the notebook
+1. Create a virtual environment (skip this if you already have an environment or are using something else)
+```{shell}
+$ conda create -n data_analysis
+```
+
+2. Clone the repository
+```{shell}
+$ git clone https://github.com/392781/Country-Clustering-Analysis.git
+```
+
+3. Install the required libraries
+```{shell}
+$ conda install pip
+$ pip install -r requirements.txt
+```
+or
+```{shell}
+$ conda install --file requirements.txt
+```
+
+4. Run jupyter note book and use!
+```{shell}
+$ jupyter notebook
+```
